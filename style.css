@@ -1,0 +1,74 @@
+body{
+    background-color: #fbff7db8;
+    margin: auto;
+    overflow: auto;
+}
+
+header{
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.hachi{
+    padding-top: 20px;
+    padding-left: 43%;
+    padding-bottom: 25px;
+}
+
+.hachi img{
+    width: auto;
+    height: auto;
+}
+
+#content1{
+    line-height: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#content1 img{
+    padding: 10px;
+    height: auto;
+    width:auto;
+}
+
+#content2{
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* #content3{
+    float: right;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+} */
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: red;
+}
+
+#wrapper{
+    margin: auto;
+    padding: 10px;
+}
